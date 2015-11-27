@@ -1,3 +1,6 @@
+# add all multiples of 3, and 5 below 1000
+# similar to the fizz-buzz interview problem
+
 threshold <- 1000
 i <- 1
 sum <- 0
