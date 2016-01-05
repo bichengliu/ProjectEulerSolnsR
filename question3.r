@@ -6,6 +6,7 @@ ctr <- 2
 while (number > 2)
 {
 	ctr <- 2 # go through the number a nonzero amount of times
+			 # also handles repeated factors as it runs until number is completely factored
 	while(ctr < intsqrt) # this can also be number, but this was done for efficiency's sake
 	{
 		if(number %% ctr == 0) # if it is a prime factor, then we append to prime_factors - not the most efficient method

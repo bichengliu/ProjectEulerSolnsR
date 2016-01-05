@@ -13,6 +13,7 @@ while (i < threshold)
 	}
 
 	# if the number divides 5, and not 3, add it to our sum; this is to prevent double-counting
+	# alternatively, we could have used an OR operator to solve this problem
 	else if((i %% 5) == 0)
 	{
 		sum <- sum + i
